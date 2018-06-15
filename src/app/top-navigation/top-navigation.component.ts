@@ -11,7 +11,7 @@ export class TopNavigationComponent implements OnInit {
   }
 
   ngOnInit() {
-    console.info(process);
+    console.info(process.env);
   }
 
 }
